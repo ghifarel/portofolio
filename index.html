@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Muhammad Haykal Ghifarel — Web Developer &amp; SEO Specialist | Ghifarel.dev</title>
+  <meta id="metaDescription" name="description" content="Web Developer / Programmer & SEO Specialist with 4+ years of experience building web applications and information systems, and optimizing WordPress websites for technical SEO and performance.">
+  <meta name="author" content="Muhammad Haykal Ghifarel">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ghifarel.github.io/portofolio/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ghifarel.github.io/portofolio/">
+  <meta id="ogTitle" property="og:title" content="Muhammad Haykal Ghifarel — Web Developer &amp; SEO Specialist">
+  <meta id="ogDescription" property="og:description" content="I build and optimize websites, web applications, and digital platforms with a focus on performance, SEO, user experience, and reliable digital solutions.">
+  <meta property="og:site_name" content="Ghifarel.dev">
+  <meta property="og:image" content="https://ghifarel.github.io/portofolio/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Muhammad Haykal Ghifarel — Web Developer & SEO Specialist">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta id="twitterTitle" name="twitter:title" content="Muhammad Haykal Ghifarel — Web Developer &amp; SEO Specialist">
+  <meta id="twitterDescription" name="twitter:description" content="Web Developer / Programmer &amp; SEO Specialist — PHP, CodeIgniter 3, WordPress, SQL, Technical SEO &amp; Web Analytics.">
+  <meta name="twitter:image" content="https://ghifarel.github.io/portofolio/assets/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Haykal Ghifarel",
+    "url": "https://ghifarel.github.io/portofolio/",
+    "jobTitle": "Web Developer / Programmer & SEO Specialist",
+    "email": "mailto:haykalghifarel08@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/muhammad-ghifarel"],
+    "knowsAbout": ["PHP", "CodeIgniter", "SQL", "WordPress", "Technical SEO", "Google Analytics", "Google Search Console", "Web Analytics", "Website Optimization"],
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universitas 17 Agustus 1945 Jakarta"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Ghifarel.dev — Muhammad Haykal Ghifarel Portfolio",
+    "url": "https://ghifarel.github.io/portofolio/",
+    "description": "Portfolio of web applications, information systems, and WordPress websites developed, managed, and optimized for Universitas 17 Agustus 1945 Jakarta."
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- ============================ NAVBAR ============================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#top" class="navbar__brand">
+        <span class="navbar__brand-mark" aria-hidden="true"></span>
+        Ghifarel<span class="accent">.dev</span>
+      </a>
+
+      <nav class="navbar__nav" id="primary-nav" aria-label="Primary">
+        <a href="#top" data-nav-link data-i18n="nav.home">Home</a>
+        <a href="#about" data-nav-link data-i18n="nav.about">About</a>
+        <a href="#expertise" data-nav-link data-i18n="nav.expertise">Expertise</a>
+        <a href="#projects" data-nav-link data-i18n="nav.projects">Projects</a>
+        <a href="#seo" data-nav-link data-i18n="nav.seo">SEO</a>
+        <a href="#experience" data-nav-link data-i18n="nav.experience">Experience</a>
+        <a href="#contact" data-nav-link data-i18n="nav.contact">Contact</a>
+        <a href="assets/CV-Muhammad-Haykal-Ghifarel.pdf" class="navbar__cv" target="_blank" rel="noopener noreferrer" download data-i18n="nav.downloadCv">Download CV</a>
+        <div class="lang-toggle" id="langToggleDesktop" role="group" aria-label="Language switch">
+          <button type="button" class="lang-toggle__opt" data-lang="en">EN</button>
+          <button type="button" class="lang-toggle__opt" data-lang="id">ID</button>
+        </div>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#top" data-i18n="nav.home">Home</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#expertise" data-i18n="nav.expertise">Expertise</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#seo" data-i18n="nav.seo">SEO</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#contact" class="navbar__cta" data-i18n="nav.contact">Contact</a>
+      <a href="assets/CV-Muhammad-Haykal-Ghifarel.pdf" class="navbar__cv" target="_blank" rel="noopener noreferrer" download data-i18n="nav.downloadCv">Download CV</a>
+      <div class="lang-toggle" id="langToggleMobile" role="group" aria-label="Language switch">
+        <button type="button" class="lang-toggle__opt" data-lang="en">EN</button>
+        <button type="button" class="lang-toggle__opt" data-lang="id">ID</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" id="top">
+      <canvas class="hero__grid" id="heroGrid" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__main">
+          <div class="hero__identity">
+            <span class="hero__avatar" aria-hidden="true">
+              <img src="assets/profile.jpg" alt="" loading="eager" onerror="this.style.display='none'">
+              <span>MHG</span>
+            </span>
+            <p class="hero__name">Muhammad Haykal Ghifarel, S.Kom.</p>
+          </div>
+          <h1 class="hero__headline" data-i18n-html="hero.headline">
+            Building reliable <span class="accent">web systems</span> —
+            and making sure they get <span class="accent-blue">found</span>.
+          </h1>
+          <p class="hero__role" data-i18n-html="hero.role">
+            Web Developer <span class="plus">+</span> SEO Specialist
+          </p>
+          <p class="hero__sub" data-i18n="hero.sub">
+            I build and optimize websites, web applications, and digital platforms
+            with a focus on performance, SEO, user experience, and reliable digital
+            solutions.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary" data-i18n="hero.ctaView">View My Work</a>
+            <a href="assets/CV-Muhammad-Haykal-Ghifarel.pdf" class="btn btn--ghost" target="_blank" rel="noopener noreferrer" download data-i18n="hero.ctaDownload">Download CV</a>
+          </div>
+
+          <div class="hero__social">
+            <a href="https://www.linkedin.com/in/muhammad-ghifarel" target="_blank" rel="noopener noreferrer" data-i18n="hero.social.linkedin">LinkedIn ↗</a>
+            <a href="mailto:haykalghifarel08@gmail.com" data-i18n="hero.social.email">Email ↗</a>
+          </div>
+        </div>
+
+        <!-- Signature visual: identity card showing both pillars, side by side -->
+        <div class="hero__id" aria-label="Core disciplines">
+          <div class="id-card">
+            <div class="id-card__row id-card__row--dev">
+              <span class="id-card__label"><span class="id-card__dot" aria-hidden="true"></span><span data-i18n="idcard.dev.label">Web Development</span></span>
+            </div>
+            <div class="id-card__tags">
+              <span class="id-card__tag">PHP</span>
+              <span class="id-card__tag">CodeIgniter 3</span>
+              <span class="id-card__tag">WordPress</span>
+              <span class="id-card__tag">MySQL</span>
+            </div>
+
+            <p class="id-card__plus" aria-hidden="true">+</p>
+
+            <div class="id-card__row id-card__row--seo">
+              <span class="id-card__label"><span class="id-card__dot" aria-hidden="true"></span><span data-i18n="idcard.seo.label">SEO &amp; Optimization</span></span>
+            </div>
+            <div class="id-card__tags">
+              <span class="id-card__tag">Technical SEO</span>
+              <span class="id-card__tag">GA4</span>
+              <span class="id-card__tag">Search Console</span>
+              <span class="id-card__tag">Screaming Frog</span>
+            </div>
+
+            <div class="id-card__foot">
+              <span data-i18n="idcard.foot.left">Build → Optimize → Analyze</span>
+              <span data-i18n="idcard.foot.right">4+ yrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="org-strip">
+        <div class="container org-strip__inner">
+          <span class="org-strip__label" data-i18n="orgstrip.label">Currently building for</span>
+          <div class="org-strip__items">
+            <span class="org-chip">Universitas 17 Agustus 1945 Jakarta</span>
+            <span class="org-chip" data-i18n="orgstrip.chip2">Faculties &amp; Study Programs</span>
+            <span class="org-chip" data-i18n="orgstrip.chip3">University Information Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ QUICK STATS ============================ -->
+    <section class="section" aria-label="Quick stats">
+      <div class="container">
+        <div class="stat-grid" id="quickStats">
+          <div class="stat-card">
+            <span class="stat-card__number">4+</span>
+            <span class="stat-card__label" data-i18n="stats.years">Years Experience</span>
+          </div>
+          <div class="stat-card" id="statWebApps">
+            <span class="stat-card__number" data-i18n="stats.webdevNumber">Web Development</span>
+            <span class="stat-card__label" data-i18n="stats.webdevLabel">Build &amp; Maintain</span>
+          </div>
+          <div class="stat-card" id="statWordPress">
+            <span class="stat-card__number" data-i18n="stats.wpNumber">WordPress</span>
+            <span class="stat-card__label" data-i18n="stats.wpLabel">Develop &amp; Manage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number" data-i18n="stats.seoNumber">SEO &amp; Analytics</span>
+            <span class="stat-card__label" data-i18n="stats.seoLabel">Audit &amp; Optimize</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section class="section section--tint" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 class="section__title" data-i18n="about.title">A developer who owns the SEO side too.</h2>
+          <div class="about-copy">
+            <p data-i18n="about.p1">
+              I'm a Web Developer / Programmer and SEO Specialist with over four
+              years of experience in web application development, information
+              systems, and WordPress website management for a university with
+              20+ active sites.
+            </p>
+            <p data-i18n="about.p2">
+              Day to day, that means writing backend logic in PHP and CodeIgniter 3,
+              managing MySQL databases, keeping WordPress sites secure and fast, and
+              then closing the loop with technical SEO audits, on-page structure, and
+              traffic analysis in Google Analytics and Search Console.
+            </p>
+            <p data-i18n="about.p3">
+              I care about the same thing on both sides of that work: whether the
+              thing actually works for the people using it — and whether they can
+              find it in the first place.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow eyebrow--blue" data-i18n="about.eyebrow2">Core Strengths</p>
+          <div class="pipeline">
+            <div class="pipeline__step">
+              <span class="pipeline__index">01</span>
+              <div>
+                <h4 data-i18n="about.step1.title">Build</h4>
+                <p data-i18n="about.step1.desc">Develop web applications and websites — from backend logic to WordPress structure.</p>
+              </div>
+            </div>
+            <div class="pipeline__step">
+              <span class="pipeline__index">02</span>
+              <div>
+                <h4 data-i18n="about.step2.title">Optimize</h4>
+                <p data-i18n="about.step2.desc">Improve technical performance, on-page SEO, and user experience.</p>
+              </div>
+            </div>
+            <div class="pipeline__step">
+              <span class="pipeline__index">03</span>
+              <div>
+                <h4 data-i18n="about.step3.title">Analyze</h4>
+                <p data-i18n="about.step3.desc">Monitor traffic, search performance, and website behavior — then feed it back into the build.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CORE EXPERTISE ============================ -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <p class="eyebrow" data-i18n="expertise.eyebrow">What I Do</p>
+        <h2 class="section__title" data-i18n="expertise.title">Two disciplines, one working process.</h2>
+
+        <div class="expertise-grid">
+          <div class="expertise-card expertise-card--dev">
+            <div class="expertise-card__icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3 data-i18n="expertise.card1.title">Web Development</h3>
+            <p data-i18n="expertise.card1.desc">Developing web applications and information systems using PHP, CodeIgniter 3, MySQL, JavaScript, and modern web technologies.</p>
+            <div class="tag-row">
+              <span class="tag">PHP</span><span class="tag">CodeIgniter 3</span><span class="tag">MySQL</span><span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="expertise-card expertise-card--dev">
+            <div class="expertise-card__icon" aria-hidden="true">◧</div>
+            <h3 data-i18n="expertise.card2.title">WordPress Development</h3>
+            <p data-i18n="expertise.card2.desc">Developing, managing, and maintaining WordPress websites — structure, content, performance, security, and optimization.</p>
+            <div class="tag-row">
+              <span class="tag">WordPress</span><span class="tag" data-i18n="expertise.card2.tag2">CMS</span><span class="tag" data-i18n="expertise.card2.tag3">Website Management</span><span class="tag" data-i18n="expertise.card2.tag4">Performance</span>
+            </div>
+          </div>
+
+          <div class="expertise-card expertise-card--seo">
+            <div class="expertise-card__icon" aria-hidden="true">↗</div>
+            <h3 data-i18n="expertise.card3.title">SEO &amp; Web Optimization</h3>
+            <p data-i18n="expertise.card3.desc">Improving website visibility, technical health, search performance, and user experience through technical and on-page SEO.</p>
+            <div class="tag-row">
+              <span class="tag">Technical SEO</span><span class="tag">On-Page SEO</span><span class="tag">Screaming Frog</span><span class="tag">Lighthouse</span>
+            </div>
+          </div>
+
+          <div class="expertise-card expertise-card--seo">
+            <div class="expertise-card__icon" aria-hidden="true">▤</div>
+            <h3 data-i18n="expertise.card4.title">Analytics &amp; Performance</h3>
+            <p data-i18n="expertise.card4.desc">Monitoring website traffic, user behavior, search performance, and website health using analytics and webmaster tools.</p>
+            <div class="tag-row">
+              <span class="tag">GA4</span><span class="tag">Search Console</span><span class="tag">Lighthouse</span><span class="tag" data-i18n="expertise.card4.tag4">SEO Reporting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ WEB DEVELOPMENT PILLAR ============================ -->
+    <section class="pillar pillar--dev section--tint">
+      <div class="container pillar__inner">
+        <div>
+          <span class="pillar__mark" aria-hidden="true">&lt;/&gt;</span>
+          <p class="eyebrow" data-i18n="pillarDev.eyebrow">Pillar 01</p>
+          <h2 class="pillar__title" data-i18n="pillarDev.title">Web Development</h2>
+          <p class="pillar__sub" data-i18n="pillarDev.sub">Building practical web applications and information systems designed to solve real-world operational needs.</p>
+          <ul class="pillar__list">
+            <li data-i18n="pillarDev.list.1">Web Application Development</li>
+            <li data-i18n="pillarDev.list.2">Information Systems</li>
+            <li data-i18n="pillarDev.list.3">Backend Development</li>
+            <li data-i18n="pillarDev.list.4">Database Management</li>
+            <li data-i18n="pillarDev.list.5">API / System Integration</li>
+            <li data-i18n="pillarDev.list.6">System Maintenance</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">PHP</span><span class="tag">CodeIgniter 3</span><span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow" style="margin-bottom:20px;" data-i18n="pillarDev.relatedProjects">Related Projects</p>
+          <div class="pillar-project-grid" id="devProjectGrid">
+            <p class="pillar-project__empty" data-i18n="projects.loading">Loading projects…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SEO & WEB OPTIMIZATION PILLAR ============================ -->
+    <section class="pillar pillar--seo">
+      <div class="container pillar__inner">
+        <div>
+          <span class="pillar__mark" aria-hidden="true">↗</span>
+          <p class="eyebrow eyebrow--blue" data-i18n="pillarSeo.eyebrow">Pillar 02</p>
+          <h2 class="pillar__title" data-i18n="pillarSeo.title">SEO &amp; Web Optimization</h2>
+          <p class="pillar__sub" data-i18n="pillarSeo.sub">Improving website visibility, technical health, performance, and search experience through data-driven optimization.</p>
+
+          <div class="pillar__panels">
+            <div class="pillar-panel">
+              <h4 data-i18n="pillarSeo.panel1.title">Technical SEO</h4>
+              <p data-i18n="pillarSeo.panel1.desc">Crawl analysis, HTTP status codes, meta titles &amp; descriptions, heading structure, internal linking, broken links.</p>
+              <div class="tag-row"><span class="tag">Screaming Frog SEO Spider</span></div>
+            </div>
+            <div class="pillar-panel">
+              <h4 data-i18n="pillarSeo.panel2.title">Search Performance</h4>
+              <p data-i18n="pillarSeo.panel2.desc">Monitoring search queries, clicks, impressions, CTR, and average position.</p>
+              <div class="tag-row"><span class="tag">Google Search Console</span></div>
+            </div>
+            <div class="pillar-panel">
+              <h4 data-i18n="pillarSeo.panel3.title">Website Analytics</h4>
+              <p data-i18n="pillarSeo.panel3.desc">Traffic monitoring, traffic sources, user behavior, and website performance analysis.</p>
+              <div class="tag-row"><span class="tag">Google Analytics 4</span></div>
+            </div>
+            <div class="pillar-panel">
+              <h4 data-i18n="pillarSeo.panel4.title">Performance Optimization</h4>
+              <p data-i18n="pillarSeo.panel4.desc">Core Web Vitals, page speed, and mobile optimization.</p>
+              <div class="tag-row"><span class="tag">Lighthouse</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow eyebrow--blue" style="margin-bottom:20px;" data-i18n="pillarSeo.sitesManage">Sites I Manage &amp; Optimize</p>
+          <div class="pillar-project-grid" id="seoProjectGrid">
+            <p class="pillar-project__empty" data-i18n="projects.loading">Loading projects…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SELECTED WORK ============================ -->
+    <section class="section section--tint" id="selected-work">
+      <div class="container">
+        <p class="eyebrow" data-i18n="selectedWork.eyebrow">Selected Work</p>
+        <h2 class="section__title" data-i18n="selectedWork.title">A closer look at a few of the systems I've built.</h2>
+        <p class="section__lead" data-i18n="selectedWork.lead">
+          Featured projects, split by discipline. Click any card for the full detail.
+        </p>
+
+        <div class="selected-groups" id="selectedWorkGroups" aria-live="polite">
+          <!-- Rendered dynamically from data/projects.json, split by category -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ALL PROJECTS ============================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow" data-i18n="projects.eyebrow">All Projects</p>
+        <h2 class="section__title" data-i18n="projects.title">Websites and systems I've developed, managed, and maintained.</h2>
+
+        <div class="portfolio-controls">
+          <div class="filter-group" id="filterGroup" role="tablist" aria-label="Filter portfolio by category">
+            <button class="filter-btn is-active" data-filter="All" role="tab" aria-selected="true" data-i18n="projects.filterAll">All</button>
+            <!-- Additional buttons are injected dynamically from data/projects.json's real categories -->
+          </div>
+
+          <div class="search-box">
+            <svg class="search-box__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <input type="search" id="portfolioSearch" placeholder="Search projects…" aria-label="Search portfolio projects" data-i18n-placeholder="projects.searchPlaceholder">
+          </div>
+        </div>
+
+        <p class="portfolio-count" id="portfolioCount" aria-live="polite"></p>
+
+        <div class="portfolio-grid" id="portfolioGrid" aria-live="polite">
+          <div class="portfolio-skeletons" id="portfolioSkeletons">
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+          </div>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <p data-i18n="projects.empty">No projects match your search or filter.</p>
+          <button class="btn btn--ghost" id="resetFilters" data-i18n="projects.reset">Reset filters</button>
+        </div>
+
+        <div class="error-state" id="errorState" hidden>
+          <p><span data-i18n="projects.errorText">Portfolio data couldn't be loaded right now.</span> <button class="link-btn" id="retryLoad" data-i18n="projects.retry">Try again</button></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SEO APPROACH ============================ -->
+    <section class="section section--tint" id="seo">
+      <div class="container">
+        <p class="eyebrow eyebrow--blue" data-i18n="seoApproach.eyebrow">SEO Approach</p>
+        <h2 class="section__title" data-i18n="seoApproach.title">Making sure the work is actually found and used.</h2>
+        <p class="section__lead" data-i18n="seoApproach.lead">
+          I play an active role in the SEO of the university's WordPress websites —
+          crawling and auditing them with Screaming Frog SEO Spider to catch technical
+          issues, monitoring search and traffic performance in Search Console and GA4,
+          and reporting the results to stakeholders.
+        </p>
+
+        <div class="approach-row">
+          <div class="approach-step">
+            <p class="approach-step__num">01</p>
+            <h4 data-i18n="seoApproach.step1.title">Audit</h4>
+            <p data-i18n="seoApproach.step1.desc">Crawl the site with Screaming Frog to surface technical issues — broken links, status codes, missing meta.</p>
+          </div>
+          <div class="approach-step">
+            <p class="approach-step__num">02</p>
+            <h4 data-i18n="seoApproach.step2.title">Optimize</h4>
+            <p data-i18n="seoApproach.step2.desc">Fix on-page structure: titles, meta descriptions, headings, internal linking, and page speed.</p>
+          </div>
+          <div class="approach-step">
+            <p class="approach-step__num">03</p>
+            <h4 data-i18n="seoApproach.step3.title">Monitor</h4>
+            <p data-i18n="seoApproach.step3.desc">Track queries, clicks, impressions, and average position in Google Search Console.</p>
+          </div>
+          <div class="approach-step">
+            <p class="approach-step__num">04</p>
+            <h4 data-i18n="seoApproach.step4.title">Evaluate</h4>
+            <p data-i18n="seoApproach.step4.desc">Review traffic and behavior in GA4, then feed findings back into the next round of changes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ EXPERIENCE ============================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="eyebrow" data-i18n="experience.eyebrow">Experience</p>
+        <h2 class="section__title" data-i18n="experience.title">Where I've put this to work.</h2>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__card-head">
+                <div>
+                  <h3 data-i18n="job1.title">Programmer</h3>
+                  <p class="timeline__org">Universitas 17 Agustus 1945 Jakarta</p>
+                </div>
+                <span class="timeline__date" data-i18n="job1.date">May 2022 — Present</span>
+              </div>
+              <ul class="timeline__list">
+                <li data-i18n-html="job1.bullet1"><strong>Manage 20+ WordPress websites</strong> across the university, faculties, and study programs — development, uptime, and content structure.</li>
+                <li data-i18n-html="job1.bullet2"><strong>Built 7+ web-based information systems</strong> with PHP &amp; CodeIgniter 3, including SIMKER (Cooperation Information System) and SIMLITABMAS (Research &amp; Community Service System).</li>
+                <li data-i18n="job1.bullet3">Own SEO end-to-end — URL structure, meta tags, keyword placement — and monitor traffic and content performance with Google Analytics.</li>
+                <li data-i18n="job1.bullet4">Administer the digital correspondence and library information systems, and manage the university's electronic journal (OJS), including detecting and cleaning up spam/illegal-content injections.</li>
+                <li data-i18n="job1.bullet5">Run technical training and knowledge-transfer sessions for administrative and academic staff, plus author user manuals and technical documentation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__card-head">
+                <div>
+                  <h3 data-i18n="job2.title">Junior Programmer</h3>
+                  <p class="timeline__org">PT Fresnel Perdana Mandiri</p>
+                </div>
+                <span class="timeline__date">Sep 2021 — Feb 2022</span>
+              </div>
+              <ul class="timeline__list">
+                <li data-i18n="job2.bullet1">Developed and integrated a pension-fund calculation module for ADELE (Automatic Distribution and Equalization Engine).</li>
+                <li data-i18n="job2.bullet2">Improved ADELE's front-end for better functionality and usability.</li>
+                <li data-i18n="job2.bullet3">Identified and fixed bugs on the PVC2 web application to keep the service running reliably.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__card-head">
+                <div>
+                  <h3 data-i18n="job3.title">Junior Programmer</h3>
+                  <p class="timeline__org">CAMP 404</p>
+                </div>
+                <span class="timeline__date">Apr 2021 — Sep 2021</span>
+              </div>
+              <ul class="timeline__list">
+                <li data-i18n="job3.bullet1">Diagnosed and resolved bugs on the CAMP 404 platform to keep the system stable.</li>
+                <li data-i18n="job3.bullet2">Ran comprehensive QA testing after fixes to keep performance on target.</li>
+                <li data-i18n="job3.bullet3">Refreshed the UI and improved responsive design across devices and screen sizes.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__card-head">
+                <div>
+                  <h3 data-i18n="job4.title">Student Intern</h3>
+                  <p class="timeline__org">PT Javan Cipta Solusi</p>
+                </div>
+                <span class="timeline__date">Mar 2020 — May 2020</span>
+              </div>
+              <ul class="timeline__list">
+                <li data-i18n="job4.bullet1">Planned, produced, and edited educational videos for YouTube and Instagram.</li>
+                <li data-i18n="job4.bullet2">Designed structured learning material using visuals, graphics, and diagrams.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-card">
+          <div>
+            <p class="education-card__degree">Universitas Mercubuana</p>
+            <p class="education-card__meta">2017 — 2021</p>
+          </div>
+          <span class="education-card__gpa" data-i18n="education.gpa">GPA 3.48</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TECH STACK ============================ -->
+    <section class="section section--tint" aria-label="Technology stack">
+      <div class="container">
+        <p class="eyebrow" data-i18n="techstack.eyebrow">Technology Stack</p>
+        <h2 class="section__title" data-i18n="techstack.title">Tools I use to keep things running.</h2>
+
+        <div class="stack-grid" id="stackGrid">
+          <div class="stack-group">
+            <p class="stack-group__label" data-i18n="techstack.group1">Development</p>
+            <div class="tag-row" data-icon-row></div>
+          </div>
+          <div class="stack-group">
+            <p class="stack-group__label" data-i18n="techstack.group2">Database</p>
+            <div class="tag-row" data-icon-row></div>
+          </div>
+          <div class="stack-group">
+            <p class="stack-group__label" data-i18n="techstack.group3">CMS</p>
+            <div class="tag-row" data-icon-row></div>
+          </div>
+          <div class="stack-group">
+            <p class="stack-group__label" data-i18n="techstack.group4">SEO &amp; Analytics</p>
+            <div class="tag-row" data-icon-row></div>
+          </div>
+          <div class="stack-group">
+            <p class="stack-group__label" data-i18n="techstack.group5">Tools &amp; Platform</p>
+            <div class="tag-row" data-icon-row></div>
+          </div>
+        </div>
+        <noscript>
+          <div class="tag-row"><span class="tag">PHP</span><span class="tag">CodeIgniter 3</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span><span class="tag">MySQL</span><span class="tag">SQL</span><span class="tag">WordPress</span><span class="tag">Google Analytics 4</span><span class="tag">Search Console</span><span class="tag">Screaming Frog</span><span class="tag">Lighthouse</span><span class="tag">Git</span><span class="tag">Hosting Management</span></div>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ============================ CONTACT ============================ -->
+    <section class="section section--dark" id="contact">
+      <div class="container contact">
+        <p class="eyebrow eyebrow--light" data-i18n="contact.eyebrow">Contact</p>
+        <h2 class="contact__title" data-i18n="contact.title">Let's Build and Optimize Something Great</h2>
+        <p class="contact__lead" data-i18n="contact.lead">I'm open to opportunities and collaborations in web development, WordPress, SEO, and website optimization.</p>
+
+        <div class="contact__card">
+          <div>
+            <p class="contact__name">Muhammad Haykal Ghifarel, S.Kom.</p>
+            <p class="contact__role" data-i18n="contact.role">Web Developer &amp; SEO Specialist</p>
+          </div>
+
+          <a href="https://wa.me/6289610345559?text=Halo%20Kak%20Haykal%2C%20saya%20tertarik%20untuk%20berdiskusi%20soal%20pengembangan%20website%2Fsistem." class="btn btn--primary btn--lg contact__whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.92 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.19c-.24.68-1.4 1.32-1.93 1.37-.5.05-1 .25-3.36-.7-2.84-1.15-4.63-4.04-4.77-4.23-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07 .99-2.35.26-.28.56-.35.75-.35h.53c.17 0 .4-.03.62.48.24.56.8 1.95.87 2.09.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.49-.14.14-.28.29-.12.57.16.28.71 1.18 1.53 1.91 1.05.94 1.94 1.24 2.22 1.38.28.14.44.12.61-.07.16-.19.7-.81.89-1.09.19-.28.37-.23.62-.14.26.09 1.63.77 1.91.91.28.14.47.21.54.33.07.12.07.68-.17 1.35z"/></svg>
+            <span data-i18n="contact.whatsapp">Chat via WhatsApp</span>
+          </a>
+
+          <div class="contact__links">
+            <a href="mailto:haykalghifarel08@gmail.com" class="contact__link">
+              <span class="contact__link-label" data-i18n="contact.emailLabel">Email</span>
+              haykalghifarel08@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-ghifarel" class="contact__link" target="_blank" rel="noopener noreferrer">
+              <span class="contact__link-label" data-i18n="contact.linkedinLabel">LinkedIn</span>
+              linkedin.com/in/muhammad-ghifarel
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand-wrap">
+        <span class="footer__brand">Ghifarel<span class="accent">.dev</span></span>
+        <span class="footer__role" data-i18n="footer.role">Web Developer &amp; SEO Specialist</span>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/muhammad-ghifarel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:haykalghifarel08@gmail.com">Email</a>
+      </div>
+      <span id="footerYear">© 2026 Muhammad Haykal Ghifarel. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- ============================ PROJECT DETAIL MODAL ============================ -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-panel">
+      <div class="modal-panel__head">
+        <h3 class="modal-panel__title" id="modalTitle"></h3>
+        <button class="modal-panel__close" id="modalClose" aria-label="Close">✕</button>
+      </div>
+      <p class="modal-panel__category" id="modalCategory"></p>
+
+      <div class="modal-section">
+        <p class="modal-section__label" data-i18n="modal.overview">Overview</p>
+        <p class="modal-section__value" id="modalDescription"></p>
+      </div>
+      <div class="modal-section" id="modalRoleWrap">
+        <p class="modal-section__label" data-i18n="modal.role">My Role</p>
+        <p class="modal-section__value" id="modalRole"></p>
+      </div>
+      <div class="modal-section">
+        <p class="modal-section__label" data-i18n="modal.status">Status</p>
+        <p class="modal-section__value" id="modalStatus"></p>
+      </div>
+
+      <div id="modalDynamicSections"></div>
+
+      <div class="modal-panel__footer">
+        <a href="#" id="modalLink" class="btn btn--primary" target="_blank" rel="noopener noreferrer" data-i18n="modal.visit">Visit Website ↗</a>
+        <button class="btn btn--ghost" id="modalCloseSecondary" data-i18n="modal.close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
