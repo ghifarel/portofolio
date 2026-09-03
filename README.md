@@ -1,54 +1,54 @@
-# Portofolio — Muhammad Haykal Ghifarel
+<div align="center">
 
-Website portofolio pribadi Muhammad Haykal Ghifarel, S.Kom — Web Developer
-serta Technical SEO & Web Analytics Specialist dengan 4+ tahun pengalaman
-mengelola ekosistem web institusi.
+# 🚀 Portfolio & Project Directory
+### Muhammad Haykal Ghifarel, S.Kom
 
-**Live demo:** https://ghifarel.github.io/portofolio/
+**Web Developer | Technical SEO & Web Analytics Specialist**
 
-## Tentang
+[![Live Demo](https://img.shields.io/badge/Live_Demo-ghifarel.github.io%2Fportofolio-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://ghifarel.github.io/portofolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-muhammad--ghifarel-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/muhammad-ghifarel)
+[![Email](https://img.shields.io/badge/Email-haykalghifarel08%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haykalghifarel08@gmail.com)
 
-Situs ini berisi profil, keahlian, riwayat pengalaman kerja, dan direktori
-33 proyek yang telah dikembangkan atau dikelola — mulai dari website utama
-universitas dan fakultas, sistem informasi internal (SIMKER, SIMLITABMAS),
-hingga dashboard otomatisasi Google Analytics 4.
+</div>
 
-## Fitur
+---
 
-- Direktori 33 proyek dengan pencarian dan filter per kategori
-- Ringkasan pengalaman kerja dalam bentuk linimasa
-- Ringkasan keahlian: Web Development, Technical SEO & Analytics, CMS & Systems
-- Tampilan responsif untuk desktop, tablet, dan mobile
-- Dibangun murni dengan HTML, CSS, dan JavaScript — tanpa framework atau
-  proses build, sehingga ringan dan mudah di-hosting sebagai situs statis
+## 📌 Ringkasan Eksekutif
 
-## Struktur proyek
+Website portofolio pribadi ini menampilkan rekam jejak profesional, keahlian teknis, dan **direktori 33 proyek aktif** yang telah saya kembangkan serta kelola selama **4+ tahun** di dunia industri web.
 
-\`\`\`
-├── index.html      # Beranda: hero, keahlian, pengalaman, ringkasan proyek, kontak
-├── projects.html   # Direktori lengkap 33 proyek (pencarian & filter kategori)
-├── css/style.css   # Seluruh styling
+Fokus utama mencakup pengembangan **Sistem Informasi Kustom (CodeIgniter 3)**, ekosistem **WordPress Institusi & Fakultas**, audit **Technical SEO**, serta otomatisasi **Dashboard Analytics (GA4)**.
+
+---
+
+## 🔥 Fitur Utama Website
+
+* ⚡ **Tanpa Framework & Cepat:** Dibangun murni menggunakan **HTML5, CSS3, dan JavaScript (Vanilla)** tanpa proses *build/bundling*, sehingga ringan dan optimal.
+* 🔍 **Pencarian Interaktif:** Dilengkapi *Live Search Bar* untuk mencari proyek berdasarkan nama, deskripsi, maupun teknologi.
+* 🏷️ **Filter per Kategori:** Memudahkan pengunjung menyaring 33 proyek ke dalam kelompok spesifik.
+* 📱 **Desain Fully Responsive:** Tampilan rapi dan nyaman diakses melalui perangkat Mobile, Tablet, maupun Desktop.
+
+---
+
+## 🛠️ Keahlian & Spesialisasi Teknis
+
+| Pilar Utama | Keahlian / Tools |
+| :--- | :--- |
+| **Web Development** | PHP, CodeIgniter 3, MySQL / SQL, JavaScript, HTML5, CSS3, Bootstrap, Google Apps Script, Git |
+| **Technical SEO & Analytics** | Screaming Frog, Google Search Console, GA4 (23 Properties), Google Lighthouse, Core Web Vitals, Schema.org |
+| **CMS & Infrastructure Management** | WordPress, Elementor, OJS 2 (Open Journal Systems), SLiMS 9 Bulian, Nextcloud, EPrints 3, HESK |
+
+---
+
+## 📁 Struktur Direktori Proyek
+
+```text
+.
+├── index.html       # Halaman Utama: Hero, Stats, Keahlian, Pengalaman & Kontak
+├── projects.html    # Direktori Lengkap 33 Proyek (Fitur Filter & Search)
+├── css/
+│   └── style.css    # Seluruh Custom Styling
 └── js/
-    ├── data.js       # Data proyek
-    ├── main.js       # Interaksi beranda (nav mobile, ringkasan kategori)
-    └── projects.js   # Pencarian & filter di halaman direktori proyek
-\`\`\`
-
-## Menjalankan secara lokal
-
-Clone repo ini lalu buka \`index.html\` langsung di browser, atau jalankan
-server statis sederhana:
-
-\`\`\`bash
-git clone https://github.com/ghifarel/portofolio.git
-cd portofolio
-python3 -m http.server 8000
-\`\`\`
-
-lalu buka \`http://localhost:8000\` di browser.
-
-## Kontak
-
-- Email: haykalghifarel08@gmail.com
-- WhatsApp: 0896 1034 5559
-- LinkedIn: [/in/muhammad-ghifarel](https://linkedin.com/in/muhammad-ghifarel)
+    ├── data.js      # Array Data 33 Proyek
+    ├── main.js      # Script Utama (Interaksi Navigasi & Beranda)
+    └── projects.js  # Script Pencarian & Filter Kategori Proyek
