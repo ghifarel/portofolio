@@ -4,53 +4,50 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Portofolio Proyek (33) — Muhammad Haykal Ghifarel</title>
-<meta name="description" content="Direktori 33 website, sistem informasi, dan dashboard yang dikembangkan dan dikelola oleh Muhammad Haykal Ghifarel di UTA'45 Jakarta." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
 <nav class="nav">
-  <div class="wrap">
-    <a href="index.html" class="nav-logo"><span class="dot"></span>ghifarel<span class="mono" style="color:var(--ink-faint)">.dev</span></a>
-    <div class="nav-links" id="navLinks">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="code-tag">&lt;/&gt;</span> ghifarel.dev
+    </a>
+    <div class="nav-links">
       <a href="index.html#about">Tentang</a>
       <a href="index.html#skills">Keahlian</a>
       <a href="index.html#experience">Pengalaman</a>
       <a href="projects.html" class="current">Proyek (33)</a>
       <a href="index.html#contact" class="nav-cta">Kontak</a>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
-    </button>
   </div>
 </nav>
 
-<header class="section--tight section" style="padding-top:56px">
-  <div class="wrap">
-    <span class="section-kicker">direktori proyek</span>
-    <h1 style="font-size:clamp(1.8rem,3.4vw,2.6rem); max-width:20ch;">Seluruh sistem informasi & website yang dikembangkan dan dikelola</h1>
-    <p style="color:var(--ink-muted); margin-top:14px; max-width:60ch;">Mencakup website institusi, portal fakultas dan program studi, hingga aplikasi internal seperti SIMKER, SIMLITABMAS, dan dashboard GA4.</p>
-  </div>
-</header>
+<div class="wrap">
+  <section class="section" style="padding-top:32px;">
+    <div class="section-badge" style="margin-bottom: 12px;">// Project Explorer</div>
+    <h1 style="font-size:clamp(1.8rem,3vw,2.5rem); margin: 0 0 12px; color:#fff;">Direktori 33 Proyek Aktif</h1>
+    <p style="color:var(--text-secondary); margin-bottom: 32px;">Eksplorasi seluruh ekosistem website institusi, fakultas, hingga aplikasi internal.</p>
 
-<section class="section" style="border-bottom:none; padding-top:0">
-  <div class="wrap">
-    <div class="toolbar">
+    <!-- Toolbar: Search & iOS Segmented Filter -->
+    <div class="toolbar-container">
       <div class="search-field">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" id="searchInput" placeholder="Cari nama proyek, kategori, atau teknologi…" />
+        <input type="text" id="searchInput" placeholder="Cari nama proyek, kategori, atau teknologi..." />
       </div>
       <div class="filter-row" id="filterRow"></div>
     </div>
 
-    <div class="result-count" id="resultCount"></div>
+    <div id="resultCount" style="font-family: var(--font-code); font-size:0.8rem; color:var(--text-faint); margin-bottom: 20px;"></div>
     <div class="proj-grid" id="projGrid"></div>
-  </div>
-</section>
+  </section>
+</div>
 
-<footer class="site-footer">© <span id="year"></span> Muhammad Haykal Ghifarel, S.Kom</footer>
+<footer style="text-align: center; padding: 32px; font-family: var(--font-code); font-size: 0.8rem; color: var(--text-faint);">
+  © <span id="year"></span> Muhammad Haykal Ghifarel, S.Kom
+</footer>
 
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
