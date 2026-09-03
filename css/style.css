@@ -422,15 +422,16 @@ p{ margin:0; }
   gap:10px;
 }
 .tl-list li{
-  display:grid;
-  grid-template-columns:14px 1fr;
-  gap:10px;
+  position:relative;
+  padding-left:24px;
   font-size:0.92rem;
   color:var(--ink-muted);
   line-height:1.55;
 }
 .tl-list li::before{
   content:"—";
+  position:absolute;
+  left:0; top:0;
   color:var(--ink-faint);
 }
 .tl-list li strong{
